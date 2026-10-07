@@ -17,26 +17,14 @@ input {
   font-size: 1rem;
 }
 
-.barra {
-  position: relative;
-  height: 28px;
-  background: #e0e0e0;
-  border-radius: 14px;
-  overflow: hidden;
-}
-
-.barra-relleno {
-  height: 100%;
-  background: #4caf50;
-  transition: width 0.3s ease;
-}
-
-.barra-texto {
-  position: absolute;
-  inset: 0;
+.formulario {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  color: #222;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formulario button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
 }
